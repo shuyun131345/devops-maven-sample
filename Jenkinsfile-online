@@ -13,7 +13,7 @@ pipeline {
         DOCKER_CREDENTIAL_ID = 'aliyun-Id'
         GITHUB_CREDENTIAL_ID = 'github-id'
         KUBECONFIG_CREDENTIAL_ID = 'kubeconfig-id'
-        REGISTRY = 'crpi-vd2k9rnsx45s89gw.cn-guangzhou.personal.cr.aliyuncs.com/gulimall-workspace/gulimall'
+        REGISTRY = 'crpi-vd2k9rnsx45s89gw-vpc.cn-guangzhou.personal.cr.aliyuncs.com/gulimall-workspace/gulimall'
         DOCKERHUB_NAMESPACE = 'shuyun1345'
         GITHUB_ACCOUNT = 'shuyun131345'
         APP_NAME = 'devops-maven-sample'
