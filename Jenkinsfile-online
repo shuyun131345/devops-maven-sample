@@ -10,13 +10,14 @@ pipeline {
     }
 
     environment {
-        DOCKER_CREDENTIAL_ID = 'dockerhub-id'
+        DOCKER_CREDENTIAL_ID = 'aliyun-Id'
         GITHUB_CREDENTIAL_ID = 'github-id'
-        KUBECONFIG_CREDENTIAL_ID = 'demo-kubeconfig'
-        REGISTRY = 'docker.io'
-        DOCKERHUB_NAMESPACE = 'docker_username'
+        KUBECONFIG_CREDENTIAL_ID = 'kubeconfig-id'
+        REGISTRY = 'crpi-vd2k9rnsx45s89gw.cn-guangzhou.personal.cr.aliyuncs.com/gulimall-workspace/gulimall'
+        DOCKERHUB_NAMESPACE = 'shuyun1345'
         GITHUB_ACCOUNT = 'kubesphere'
         APP_NAME = 'devops-maven-sample'
+        SONAR_CREDENTIAL_ID = 'sonarqube-token'
     }
 
     stages {
