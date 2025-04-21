@@ -15,7 +15,7 @@ pipeline {
         KUBECONFIG_CREDENTIAL_ID = 'demo-kubeconfig'
         REGISTRY = 'docker.io'
         DOCKERHUB_NAMESPACE = 'docker_username'
-        GITHUB_ACCOUNT = 'kubesphere'
+        GITHUB_ACCOUNT = 'shuyun131345'
         APP_NAME = 'devops-maven-sample'
     }
 
